@@ -2,6 +2,8 @@ package com.SimonGForsgren.oop.Logic;
 import java.util.Scanner;
 
 public class BasicLogic {
+    public static boolean isRunning;
+
 
 
 
