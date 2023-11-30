@@ -4,12 +4,23 @@ import java.util.Scanner;
 public class BasicLogic {
     public static boolean isRunning; //while True, game will run
 
+    public static void startGame(){
+
+        //TODO
+        //TODO
+        //TODO
+        //TODO
+
+        isRunning = true; //Setting game running to true so game runs
+        gameLoop(); //Start the main loop
+    }
 
 
 
 
 
-    public static void PlayerDied(){
+
+    public static void PlayerDied(){ //TODO create the player died method
         isRunning = false;
     }
 
@@ -20,7 +31,7 @@ public class BasicLogic {
         System.out.println("(3) QUIT GAME");    //option 3 to Exit the game
     }
 
-    public static void GameLoop(){
+    public static void gameLoop(){
         Scanner scanner = new Scanner(System.in);
 
         while(isRunning){
