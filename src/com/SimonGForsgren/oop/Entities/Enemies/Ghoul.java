@@ -3,17 +3,15 @@ package com.SimonGForsgren.oop.Entities.Enemies;
 import com.SimonGForsgren.oop.Entities.Characters;
 
 public class Ghoul extends Characters {
-    public Ghoul(String name, int maxHp, int xp) {
-        super(name, maxHp, xp);
+    public Ghoul(String Ghoul, int maxHp, int xp) {
+        super(Ghoul, 30, 10);
     }
-
     @Override
     public int attack() {
-        return 0;
+        return 5;
     }
-
     @Override
     public int defend() {
-        return 0;
+        return 5;
     }
 }
