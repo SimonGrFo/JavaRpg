@@ -1,11 +1,11 @@
 package com.SimonGForsgren.oop.Entities;
 
 public abstract class Characters {
- //Characters class that both Player and Enemy inherit.
+    //Characters class that both Player and Enemy inherit.
 
 
     //variable / attributes all Characters have
-    public static String name;
+    public String name;
     public int maxHp, hp, xp;
 
     //Constructor for character

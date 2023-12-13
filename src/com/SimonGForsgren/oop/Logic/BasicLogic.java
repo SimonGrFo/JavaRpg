@@ -1,25 +1,20 @@
 package com.SimonGForsgren.oop.Logic;
 import java.util.Scanner;
 import com.SimonGForsgren.oop.Entities.Player;
+import com.SimonGForsgren.oop.Entities.Status;
 
 public class BasicLogic {
     public static boolean isRunning; //while True, game will run
     static Scanner scanner = new Scanner(System.in);
 
-    public static void startGame(){
+    static Player player;
 
-
+    public static void startGame() {
+        isRunning = true; // Setting game running to true so the game runs
         System.out.println("Welcome, what is your name?");
         String name = scanner.next();
-        Player player = new Player(name);
-
-
-
-
-
-
-
-        isRunning = true; //Setting game running to true so game runs
+        player = new Player(name);
+        System.out.println("Your name is " + name + "... You venture into the catacombs");
         gameLoop(); //Start the main loop
     }
 
@@ -28,9 +23,13 @@ public class BasicLogic {
 
 
 
-    public static void PlayerDied(){ //TODO create the player died method
-        isRunning = false;
+
+    public static void PlayerDied(Player player){ //TODO create the player died method
+        isRunning = false;                //IDK how necessary player player is in parentheses
+        // but whatever 👍
     }
+
+
 
     public static void printMenu() {   //Method for printing the options in Main menu of game loop
         System.out.println("Choose an action");
@@ -54,7 +53,7 @@ public class BasicLogic {
                     //TODO InCombat
                     break;
                 case 2:
-                    //TODO Add status check logic here
+                    Status.displayPlayerStatus(player);
                     break;
                 case 3:
                     System.out.println("You were unable to persevere, game over");

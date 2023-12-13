@@ -9,6 +9,10 @@ public class Player extends Characters {
         super(name, 100, 0);
     }
 
+    public void levelUp() {
+        //TODO implement level up logic
+    }
+
 
     //TODO more stuff here
 
