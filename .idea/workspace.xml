@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.2,4">
+    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.2,6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/BasicLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/BasicLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -132,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701346349896</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0.2,5">
+      <option name="closed" value="true" />
+      <created>1701352593333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701352593333</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0.2,6">
+      <option name="closed" value="true" />
+      <created>1701359865711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701359865711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +162,8 @@
     <MESSAGE value="0.2,2" />
     <MESSAGE value="0.2,3" />
     <MESSAGE value="0.2,4" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.2,4" />
+    <MESSAGE value="0.2,5" />
+    <MESSAGE value="0.2,6" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.2,6" />
   </component>
 </project>

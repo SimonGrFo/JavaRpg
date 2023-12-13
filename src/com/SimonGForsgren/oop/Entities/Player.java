@@ -5,6 +5,11 @@ public class Player extends Characters {
         super(name, 100, 0);
     }
 
+    public Player(String name) {
+        super(name, 100, 0);
+    }
+
+
     //TODO more stuff here
 
     @Override

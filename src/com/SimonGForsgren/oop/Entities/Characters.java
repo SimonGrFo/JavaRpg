@@ -5,7 +5,7 @@ public abstract class Characters {
 
 
     //variable / attributes all Characters have
-    public String name;
+    public static String name;
     public int maxHp, hp, xp;
 
     //Constructor for character
