@@ -8,6 +8,6 @@ public class Status {
         System.out.println("XP: " + player.xp);
 
 
-        //TODO Display status for player (stats and stuff)
+        //TODO more (stats and stuff)
     }
 }

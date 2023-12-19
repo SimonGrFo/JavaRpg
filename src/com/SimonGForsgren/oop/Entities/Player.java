@@ -13,7 +13,6 @@ public class Player extends Characters {
         //TODO implement level up logic
     }
 
-
     //TODO more stuff here
 
     @Override
