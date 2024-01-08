@@ -8,14 +8,17 @@ public abstract class Characters {
     public String name;
     public int maxHp;
     public int hp;
-    public static int xp;
+    public int xp;
+    public int level;
+
 
     //Constructor for character
-    public Characters(String name, int maxHp, int xp){
+    public Characters(String name, int maxHp, int xp, int level){
         this.name = name;
         this.maxHp = maxHp;
         this.xp = xp;
         this.hp = maxHp;
+        this.level = level;
     }
 
     //method for attack and defense that every character has

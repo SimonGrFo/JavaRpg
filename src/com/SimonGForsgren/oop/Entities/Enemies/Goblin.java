@@ -4,7 +4,7 @@ import com.SimonGForsgren.oop.Entities.Characters;
 
 public class Goblin extends Characters {
     public Goblin(String Goblin, int maxHp, int xp) {
-        super(Goblin, 20, 40);
+        super(Goblin, 20, 40, 1);
     }
     @Override
     public int attack() {

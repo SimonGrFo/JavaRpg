@@ -13,12 +13,14 @@ public class InCombat {
     public void Fight(Ghoul ghoul, Player player) {
         System.out.println("You encounter a Ghoul!");
 
+        int choice;
+
         while (ghoul.hp >= 1 && player.hp >= 1) {
             System.out.println("(1) Attack!");
             System.out.println("(2) Defend!");
             System.out.println("(3) Escape!");
 
-            int choice = scanner.nextInt();
+            choice = scanner.nextInt();
             scanner.nextLine();
 
             switch (choice) {
@@ -27,31 +29,28 @@ public class InCombat {
                     ghoul.hp -= playerDamage;
                     System.out.println("You dealt " + playerDamage + " damage to the " + ghoul.name + "!");
 
-                    // Check if the Ghoul is defeated
                     if (ghoul.hp <= 0) {
                         System.out.println("The " + ghoul.name + " has been defeated");
-                        player.xp += Ghoul.xp;
+                        player.xp += ghoul.xp;
+                        ghoulDied(ghoul);
                         break;
                     }
 
-                    // Implement Ghoul's attack
                     int ghoulDamage = ghoul.attack();
                     player.hp -= ghoulDamage;
                     System.out.println("The " + ghoul.name + " dealt " + ghoulDamage + " damage to you!");
                     break;
 
                 case 2:
-                    // Implement logic for Defend
-                    int ghoulDamageDefend = ghoul.attack();
-                    int defendedDamageDefend = player.defend(ghoulDamageDefend);
-                    System.out.println("You defended and took " + defendedDamageDefend + " damage from the " + ghoul.name + "!");
+                    int DamageDefend = ghoul.attack();
+                    int DamageDefended = player.defend(DamageDefend);
+                    System.out.println("You defended and took " + DamageDefended + " damage from the " + ghoul.name + "!");
                     break;
 
                 case 3:
-                    // Implement logic for Escape
                     if (attemptEscape()) {
                         System.out.println("You successfully escaped!");
-                        return;  // Break out of the while loop and end the fight
+                        return;
                     } else {
                         System.out.println("Failed to escape! The " + ghoul.name + " attacks you.");
                     }
@@ -67,8 +66,10 @@ public class InCombat {
             BasicLogic.PlayerDied();
         }
     }
-
+    private void ghoulDied(Ghoul ghoul) {
+        System.out.println("You gained " + ghoul.xp + " XP from defeating the " + ghoul.name + "!");
+    }
     private boolean attemptEscape() {
-        return random.nextBoolean();  // Adjust the probability as needed
+        return random.nextBoolean();
     }
 }

@@ -19,8 +19,8 @@ public class BasicLogic {
         gameLoop(); //Start the main loop
     }
 
-    public static void PlayerDied(){ //TODO create the player died method
-        isRunning = false;          //TODO IDK how necessary player player is in parentheses but whatever 👍
+    public static void PlayerDied(){  //TODO create the player died method
+        isRunning = false;            //TODO IDK how necessary player player is in parentheses but whatever 👍
     }
 
     public static void printMenu() {   //Method for printing the options in Main menu of game loop
@@ -56,7 +56,7 @@ public class BasicLogic {
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
-                    // If none of the options above are chosen 1,2, or 3, then this is what happens
+                    // If none of the options above are chosen 1,2, or 3, then it defaults to this.
             }
         }
         scanner.close();

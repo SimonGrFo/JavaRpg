@@ -1,19 +1,27 @@
 package com.SimonGForsgren.oop.Entities;
 
 public class Player extends Characters {
-    public Player(String name, int maxHp, int xp) {
-        super(name, 100, 0);
+    public Player(String name, int maxHp, int xp, int level) {
+        super(name, 100, 0, 0);
     }
 
     public Player(String name) {
-        super(name, 100, 0);
+        super(name, 100, 0, 0);
     }
 
     public void levelUp() {
-        //TODO implement level up logic
+
+        while (xp >= 30) {
+            xp -= 30; // Deduct XP for the next level
+            increaseLevel();
+            System.out.println(name + " leveled up to level " + level);
+        }
     }
 
-    //TODO more stuff here
+    private void increaseLevel() {
+        level++;
+    }
+
 
     @Override
     public int attack() {

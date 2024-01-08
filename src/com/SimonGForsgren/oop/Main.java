@@ -8,3 +8,6 @@ public class Main {
         BasicLogic.startGame(); //calls startGame method from BasicLogic Class
     }
 }
+
+ //TODO TEST FOR DYING
+ //TODO

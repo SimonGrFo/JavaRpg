@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.4">
+    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Ghoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Ghoul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/InCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/InCombat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704751799859</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="0.3.5">
+      <option name="closed" value="true" />
+      <created>1704752923943</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704752923943</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +243,7 @@
     <MESSAGE value="0.3.1" />
     <MESSAGE value="0.3.3" />
     <MESSAGE value="0.3.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.3.4" />
+    <MESSAGE value="0.3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.3.5" />
   </component>
 </project>
