@@ -6,7 +6,9 @@ public abstract class Characters {
 
     //variable / attributes all Characters have
     public String name;
-    public int maxHp, hp, xp;
+    public int maxHp;
+    public int hp;
+    public static int xp;
 
     //Constructor for character
     public Characters(String name, int maxHp, int xp){

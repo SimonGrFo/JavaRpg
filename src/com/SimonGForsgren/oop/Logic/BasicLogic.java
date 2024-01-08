@@ -30,10 +30,12 @@ public class BasicLogic {
         System.out.println("(3) QUIT GAME");    //option 3 to Exit the game
     }
 
-    public static void gameLoop(){ //Continuing on printMenu this is where the methods are
-        Scanner scanner = new Scanner(System.in);
 
-        while(isRunning){
+    public static void gameLoop() {
+        Scanner scanner = new Scanner(System.in);
+        InCombat combatHandler = new InCombat();  // Create an instance of InCombat
+
+        while (isRunning) {
             printMenu();
 
             int choice = scanner.nextInt();
@@ -43,18 +45,18 @@ public class BasicLogic {
                 case 1:
                     // Start the combat
                     Ghoul ghoul = new Ghoul("Ghoul", 30, 10); // Example Ghoul
-                    Fight(ghoul, player);
+                    combatHandler.Fight(ghoul, player);
                     break;
                 case 2:
                     Status.displayPlayerStatus(player);
                     break;
                 case 3:
                     System.out.println("You were unable to persevere, game over");
-                    isRunning = false;  //Exits game
+                    isRunning = false;  // Exits game
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
-                    //If none of the options above are chosen 1,2 or 3, then this is what happens
+                    // If none of the options above are chosen 1,2, or 3, then this is what happens
             }
         }
         scanner.close();
