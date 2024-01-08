@@ -62,7 +62,10 @@ public class InCombat {
             }
         }
 
-        // TODO: Check if the player's HP is <= 0 and call PlayerDied() if needed
+        if (player.hp <= 0) {
+            System.out.println("You were killed, you were unable to escape the Dungeon and your corpse will forever remain there.");
+            BasicLogic.PlayerDied();
+        }
     }
 
     private boolean attemptEscape() {
