@@ -1,6 +1,5 @@
 package com.SimonGForsgren.oop.Logic;
 
-import com.SimonGForsgren.oop.Entities.Characters;
 import com.SimonGForsgren.oop.Entities.Enemies.Ghoul;
 import com.SimonGForsgren.oop.Entities.Player;
 import java.util.Random;
@@ -27,12 +26,26 @@ public class InCombat {
                     int playerDamage = player.attack();
                     ghoul.hp -= playerDamage;
                     System.out.println("You dealt " + playerDamage + " damage to the " + ghoul.name + "!");
-                    // ...
+
+                    // Check if the Ghoul is defeated
+                    if (ghoul.hp <= 0) {
+                        System.out.println("The " + ghoul.name + " has been defeated");
+                        player.xp += Ghoul.xp;
+                        break;
+                    }
+
+                    // Implement Ghoul's attack
+                    int ghoulDamage = ghoul.attack();
+                    player.hp -= ghoulDamage;
+                    System.out.println("The " + ghoul.name + " dealt " + ghoulDamage + " damage to you!");
+                    break;
 
                 case 2:
+                    // Implement logic for Defend
                     int ghoulDamageDefend = ghoul.attack();
-                    int defendedDamageDefend = player.defend();
+                    int defendedDamageDefend = player.defend(ghoulDamageDefend);
                     System.out.println("You defended and took " + defendedDamageDefend + " damage from the " + ghoul.name + "!");
+                    break;
 
                 case 3:
                     // Implement logic for Escape

@@ -21,4 +21,8 @@ public abstract class Characters {
     //method for attack and defense that every character has
     public abstract int attack();
     public abstract int defend();
+
+    public int defend(int ghoulDamageDefend) {
+        return ghoulDamageDefend;
+    }
 }

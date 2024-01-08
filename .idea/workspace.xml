@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" afterDir="false" />
-    </list>
+    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,24 +22,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "searchQuery": "https://github.com/SimonGrFo/JavaRpg-v2.git",
-      "state": "OPEN",
-      "assignee": "SimonGrFo"
+      &quot;searchQuery&quot;: &quot;https://github.com/SimonGrFo/JavaRpg-v2.git&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;SimonGrFo&quot;
     },
     {
-      "state": "OPEN"
+      &quot;state&quot;: &quot;OPEN&quot;
     },
     {
-      "searchQuery": "https://github.com/SimonGrFo/JavaRpg-v2.git"
+      &quot;searchQuery&quot;: &quot;https://github.com/SimonGrFo/JavaRpg-v2.git&quot;
     }
   ],
-  "lastFilter": {
-    "searchQuery": "https://github.com/SimonGrFo/JavaRpg-v2.git"
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;https://github.com/SimonGrFo/JavaRpg-v2.git&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -50,6 +47,9 @@
         <option name="url" value="https://github.com/SimonGrFo/JavaRpg-v2.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -192,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703003543916</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="0.3.3">
+      <option name="closed" value="true" />
+      <created>1704726536010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704726536010</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +215,7 @@
     <MESSAGE value="0.2,7" />
     <MESSAGE value="0.3" />
     <MESSAGE value="0.3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.3.1" />
+    <MESSAGE value="0.3.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.3.3" />
   </component>
 </project>
