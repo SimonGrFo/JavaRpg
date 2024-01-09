@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.5">
+    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Ghoul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Ghoul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/InCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Logic/InCombat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +87,7 @@
       <recent name="com.SimonGForsgren.oop.Logic" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BasicLogicTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SimonGForsgren.oop.Main" />
       <module name="JavaRpg v2" />
@@ -107,8 +101,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BasicLogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaRpg v2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicLogicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicLogicTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
