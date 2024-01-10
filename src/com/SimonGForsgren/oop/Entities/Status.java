@@ -7,8 +7,5 @@ public class Status {
         System.out.println("LEVEL:" + player.level);
         System.out.println("HP: " + player.hp + "/" + player.maxHp);
         System.out.println("XP: " + player.xp);
-
-
-        //TODO more (stats and stuff)
     }
 }

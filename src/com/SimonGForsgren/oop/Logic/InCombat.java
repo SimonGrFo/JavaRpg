@@ -49,20 +49,20 @@ public class InCombat {
 
                 case 3:
                     if (attemptEscape()) {
-                        System.out.println("You successfully escaped!");
+                        System.out.println("You Successfully escaped!");
                         return;
                     } else {
-                        System.out.println("Failed to escape! The " + ghoul.name + " attacks you.");
+                        System.out.println("Your escape attempt was a failure.");
                     }
                     break;
 
                 default:
-                    System.out.println("Invalid choice. Please choose again.");
+                    System.out.println("Invalid choice");
             }
         }
 
         if (player.hp <= 0) {
-            System.out.println("You were killed, you were unable to escape the Dungeon and your corpse will forever remain there.");
+            System.out.println("You Died.");
             BasicLogic.PlayerDied();
         }
     }
