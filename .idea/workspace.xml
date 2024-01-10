@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.3.7">
+    <list default="true" id="656b527a-9495-441b-87f4-aee2ebb8577f" name="Changes" comment="0.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Goblin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimonGForsgren/oop/Entities/Enemies/Poltergeist.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <recent name="com.SimonGForsgren.oop.Logic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicLogicTest">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SimonGForsgren.oop.Main" />
       <module name="JavaRpg v2" />
@@ -110,8 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaRpg v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.BasicLogicTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -230,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704752923943</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0.3.9">
+      <option name="closed" value="true" />
+      <created>1704833248389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704833248389</updated>
+    </task>
+    <task id="LOCAL-00015" summary="0.4">
+      <option name="closed" value="true" />
+      <created>1704833458402</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704833458402</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +278,8 @@
     <MESSAGE value="0.3.3" />
     <MESSAGE value="0.3.4" />
     <MESSAGE value="0.3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.3.5" />
+    <MESSAGE value="0.3.9" />
+    <MESSAGE value="0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.4" />
   </component>
 </project>
